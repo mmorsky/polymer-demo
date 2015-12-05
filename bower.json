@@ -1,0 +1,28 @@
+{
+  "name": "polymer-demo",
+  "authors": [
+    "Marika Mörsky <marika.morsky@gmail.com>"
+  ],
+  "description": "Little chat application",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "demo",
+    "chat"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.2.2",
+    "paper-input": "PolymerElements/paper-input#~1.1.2",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.1.2"
+  }
+}
