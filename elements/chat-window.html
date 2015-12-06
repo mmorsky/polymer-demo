@@ -1,0 +1,30 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="chat-window">
+    <template>
+        <style>
+            :host {
+              display: block;
+            }
+            div {
+                display: inline-block;
+                background-color: #03A9F4;
+                font-family: "Roboto", "Noto", sans-serif;
+                height: 40em;
+                width: 40em;
+            }
+        </style>
+
+        <div>chat window</div>
+    </template>
+
+    <script>
+      // register a new element 
+        Polymer({
+            is: "chat-window",
+            // add a callback to the element's prototype
+          ready: function() {
+          }
+        });
+    </script>
+</dom-module>
