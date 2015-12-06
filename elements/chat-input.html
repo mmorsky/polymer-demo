@@ -1,26 +1,36 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<dom-module id="chat-window">
+<dom-module id="chat-input">
     <template>
         <style>
             :host {
               display: block;
             }
             div {
-                background-color: #03A9F4;
                 font-family: "Roboto", "Noto", sans-serif;
-                height: 40em;
+                padding: 4px;
                 width: 40em;
+            }
+            input {
+                display: inline;
+                width: 27em;
+                font-size: 20px;
+            }
+            button {
+                font-size: 20px;
             }
         </style>
 
-        <div>chat window</div>
+        <div>
+            <input type="text"></input>
+            <button>Chat!</button>
+        </div>
     </template>
 
     <script>
       // register a new element 
         Polymer({
-            is: "chat-window",
+            is: "chat-input",
             // add a callback to the element's prototype
           ready: function() {
           }
