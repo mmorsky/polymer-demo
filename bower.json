@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
+    "jquery": "~2.1.4",
     "polymer": "Polymer/polymer#~1.2.2",
     "paper-input": "PolymerElements/paper-input#~1.1.2",
     "paper-header-panel": "PolymerElements/paper-header-panel#~1.1.2"
