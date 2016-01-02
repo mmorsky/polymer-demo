@@ -22,7 +22,7 @@
         </style>
 
         <div>
-            <input type="text"></input>
+            <input id="chat-input" type="text"></input>
             <button id="chat-button">Chat!</button>
         </div>
     </template>
@@ -34,12 +34,12 @@
             // add a callback to the element's prototype
           ready: function() {
               //Post message on button click
-                $('#chat-button').click(function() {
-                    alert("button clicked");
-                });
+              $('#chat-button').click(function() {
+                  chatButtonClicked($('#chat-input').val());
+              });
+                
           }
         });
-
         
     </script>
 </dom-module>
