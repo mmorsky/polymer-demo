@@ -1,4 +1,6 @@
 
 function chatButtonClicked(message) {
-    alert("Message is: " + message);
+    var bubble = document.createElement("chat-bubble");
+    bubble.innerHTML = message;
+    $("#chat-window").append(bubble);
 }

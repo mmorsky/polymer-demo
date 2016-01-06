@@ -1,29 +1,31 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<dom-module id="chat-window">
+<dom-module id="chat-bubble">
     <template>
         <style>
             :host {
               display: block;
             }
-            #chat-window {
-                background-color: #03A9F4;
+            #chat-bubble {
+                display: inline-block;
+                background-color: #fff;
                 font-family: "Roboto", "Noto", sans-serif;
-                height: 40em;
-                width: 40em;
+                border-radius: 4px;
+                padding: 4px;
+                width: 4em;
             }
         </style>
 
-        <div id="chat-window">chat window</div>
+        <div id="chat-bubble"></div>
     </template>
 
     <script>
       // register a new element 
         Polymer({
-            is: "chat-window",
+            is: "chat-bubble",
             // add a callback to the element's prototype
           ready: function() {
-          }
+            }
         });
     </script>
 </dom-module>
